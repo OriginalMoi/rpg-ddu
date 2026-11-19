@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2026-11-02" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.3.3312" locale="da_DK">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2026-12-28" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.3.3312" locale="da_DK">
     <description/>
-    <view zooming-state="default:4" id="gantt-chart">
+    <view zooming-state="default:6" id="gantt-chart">
         <field id="tpd3" name="Navn" width="200" order="0"/>
         <field id="tpd4" name="Start dato" width="75" order="1"/>
         <field id="tpd5" name="Slut dato" width="75" order="2"/>
@@ -38,26 +38,32 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" uid="0a5dfdb2a4bb41b8ade1382c54cb5168" name="Aflevere" meeting="true" start="2026-12-02" duration="0" complete="0" expand="true"/>
+        <task id="0" uid="0a5dfdb2a4bb41b8ade1382c54cb5168" name="Aflevere" meeting="true" start="2027-02-19" duration="0" complete="0" expand="true"/>
         <task id="1" uid="151d3a680d3c4cb6bae6114145105abd" name="Sprint 0#" meeting="false" start="2026-11-06" duration="10" complete="0" expand="true">
             <depend id="4" type="2" difference="0" hardness="Strong"/>
             <task id="7" uid="c7db6c59c3964d33a66407e19e952402" name="Backlog" meeting="false" start="2026-11-06" duration="1" complete="0" expand="true"/>
             <task id="8" uid="f3fa2c193b8d4f40a7eb3caee11335f1" name="Teknisksetup og DoD" meeting="false" start="2026-11-06" duration="3" complete="0" expand="true"/>
             <task id="6" uid="2c7471571c3e49968efc02ddd73bdbe9" name="MVP" meeting="false" start="2026-11-06" duration="10" complete="0" expand="true"/>
         </task>
-        <task id="4" uid="f25ef504e5914edaa5f46e52de25e70b" name="Sprint 1#" color="#ccff33" meeting="false" start="2026-11-20" duration="3" complete="0" expand="true">
-            <task id="11" uid="c71f5046ed7d40a0aec20d98bad5aa56" name="Sprint Review" color="#ccff33" meeting="false" start="2026-11-20" duration="1" complete="0" expand="true"/>
-            <task id="13" uid="27b08d83f0394d91b053b314892aa407" name="Sprint Retrospective" color="#ccff33" meeting="false" start="2026-11-20" duration="3" complete="0" expand="true"/>
+        <task id="4" uid="f25ef504e5914edaa5f46e52de25e70b" name="Sprint 1#" color="#ccff33" meeting="false" start="2026-11-20" duration="18" complete="0" expand="true">
+            <depend id="3" type="2" difference="0" hardness="Strong"/>
+            <task id="11" uid="c71f5046ed7d40a0aec20d98bad5aa56" name="Sprint Review" color="#ccff33" meeting="false" start="2026-11-20" duration="2" complete="0" expand="true"/>
+            <task id="13" uid="27b08d83f0394d91b053b314892aa407" name="Sprint Retrospective" color="#ccff33" meeting="false" start="2026-11-24" duration="16" complete="0" expand="true"/>
         </task>
-        <task id="3" uid="bfb749e0b9894a409aec26ba6e456fde" name="Sprint 2#" color="#ccff33" meeting="false" start="2026-11-24" duration="5" complete="0" expand="true">
-            <task id="10" uid="d4c5c65f780343a8bc70ea355af645df" name="Sprint Review" color="#ccff33" meeting="false" start="2026-11-24" duration="1" complete="0" expand="true"/>
-            <task id="14" uid="27cf72b9e37842f5afd4e6a50116ef94" name="Sprint Retrospective" color="#ccff33" meeting="false" start="2026-11-25" duration="4" complete="0" expand="true"/>
+        <task id="3" uid="bfb749e0b9894a409aec26ba6e456fde" name="Sprint 2#" color="#ccff33" meeting="false" start="2026-12-16" duration="19" complete="0" expand="true">
+            <depend id="17" type="2" difference="0" hardness="Strong"/>
+            <task id="10" uid="d4c5c65f780343a8bc70ea355af645df" name="Sprint Review" color="#ccff33" meeting="false" start="2026-12-16" duration="3" complete="0" expand="true"/>
+            <task id="14" uid="27cf72b9e37842f5afd4e6a50116ef94" name="Sprint Retrospective" color="#ccff33" meeting="false" start="2026-12-21" duration="16" complete="0" expand="true"/>
+        </task>
+        <task id="17" uid="2588b2e79ce144559940e200be0a396b" name="Sprint 3#" color="#ccff33" meeting="false" start="2027-01-12" duration="19" complete="0" expand="true">
+            <task id="18" uid="0218394a28e94eb5b990bcc38f17fb09" name="Sprint Review" color="#ccff33" meeting="false" start="2027-01-12" duration="3" complete="5" expand="true"/>
+            <task id="19" uid="a53f77a12eac44e4bac3a15a10a58705" name="Sprint Retrospective" color="#ccff33" meeting="false" start="2027-01-15" duration="16" complete="0" expand="true"/>
         </task>
         <task id="5" uid="33a408ae3323424a89ec62fd1303ba6a" name="Pre sprint" meeting="false" start="2026-11-05" duration="1" complete="0" expand="true">
             <depend id="1" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="15" uid="eae76a82767943d7926c822ab382831d" name="Konklusion" meeting="false" start="2026-11-30" duration="1" complete="0" expand="true"/>
-        <task id="16" uid="acae2c3fcc5f43d4b0ba9c73b2f26898" name="Polere dokumentet" meeting="false" start="2026-12-01" duration="2" complete="0" expand="true"/>
+        <task id="15" uid="eae76a82767943d7926c822ab382831d" name="Konklusion" meeting="false" start="2027-02-08" duration="3" complete="0" expand="false"/>
+        <task id="16" uid="acae2c3fcc5f43d4b0ba9c73b2f26898" name="Polere dokumentet" meeting="false" start="2027-02-11" duration="7" complete="0" expand="true"/>
     </tasks>
     <resources/>
     <allocations/>
